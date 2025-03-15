@@ -7,12 +7,10 @@ import bootstrap from "../assets/Experience/Bootstrap.png";
 import tailwind from "../assets/Experience/tailwind.png";
 import java from "../assets/Experience/java.png";
 import python from "../assets/Experience/python.png";
-import git from "../assets/Experience/Git.png";
 import github from "../assets/Experience/github.png";
 import mysql from "../assets/Experience/MySql.png";
-import springboot from "../assets/Experience/SpringBoot.png";
 import C from "../assets/Experience/c.png";
-import Cplus from "../assets/Experience/cplus.png";
+import mongo from "../assets/Experience/mong.png";
 import { AppStore } from "../Store/AppstoreProvider";
 
 const Experience = () => {
@@ -69,38 +67,26 @@ const Experience = () => {
     },
     {
       id: 9,
-      src: git,
-      title: "Git",
-      style: "shadow-orange-400",
-    },
-    {
-      id: 10,
       src: github,
       title: "Github",
       style: "shadow-gray-400",
     },
     {
-      id: 11,
+      id: 10,
       src: mysql,
       title: "My SQL",
       style: "shadow-cyan-700",
     },
     {
-      id: 12,
-      src: springboot,
-      title: "SpringBoot",
-      style: "shadow-green-500",
-    },
-    {
-      id: 13,
+      id: 11,
       src: C,
       title: "C",
       style: "shadow-indigo-600",
     },
     {
       id: 14,
-      src: Cplus,
-      title: "C++",
+      src: mongo,
+      title: "MongoDB",
       style: "shadow-sky-500",
     },
   ];

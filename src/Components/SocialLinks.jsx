@@ -2,7 +2,7 @@ import React from "react";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+
 
 const SocialLinks = () => {
   const links = [
@@ -13,7 +13,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://www.linkedin.com/in/debasis-mishra-579bb226a/",
+      href: "https://www.linkedin.com/in/sampritha01/",
       style: "rounded-tr-md",
     },
     {
@@ -23,7 +23,7 @@ const SocialLinks = () => {
           Github <FaGithub size={30} />
         </>
       ),
-      href: "https://github.com/DEBASIS000123",
+      href: "https://github.com/22CSR169-SAMPRI",
     },
     {
       id: 3,
@@ -32,18 +32,9 @@ const SocialLinks = () => {
           Mail <IoIosMail size={30} />
         </>
       ),
-      href: "mailto:debasismishra160@gmail.com",
+      href: "mailto:sampritha.a2004@gmail.com",
     },
-    {
-      id: 4,
-      child: (
-        <>
-          Resume <BsFillPersonLinesFill size={30} />
-        </>
-      ),
-      href: "",
-      style: "rounded-br-md",
-    },
+    
   ];
   return (
     <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">

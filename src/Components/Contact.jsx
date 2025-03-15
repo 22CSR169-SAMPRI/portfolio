@@ -23,7 +23,7 @@ const Contact = () => {
 
         <div className=" flex justify-center items-center pt-14">
           <form
-            action="https://getform.io/f/rbeqryyb"
+            action="https://getform.io/f/bolmqxna"
             method="POST"
             className=" flex flex-col w-full md:w-1/2"
           >
@@ -63,7 +63,7 @@ const Contact = () => {
                 lightmode ? "text-black font-bold" : "text-white"
               }`}
             >
-              Let's talk
+              Submit
             </button>
           </form>
         </div>

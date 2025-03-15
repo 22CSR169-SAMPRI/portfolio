@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import heroimg from "../assets/home-main.svg";
-import Avatar from "../assets/Avatar.png";
+import Avatar from "../assets/Avatar.webp";
 import { IoIosArrowForward } from "react-icons/io";
 import Type from "./Type.jsx";
 import { Link } from "react-scroll";
@@ -37,7 +37,7 @@ const Home = () => {
               lightmode ? "text-black" : "text-white"
             }`}
           >
-            I'M <span className="text-Primary">DEBASIS MISHRA</span>
+            I'M <span className="text-Primary">SAMPRITHA A</span>
           </h2>
           <h2 className="py-10 text-4xl sm:text-4xl font-bold text-Primary">
             <Type />
@@ -76,26 +76,23 @@ const Home = () => {
           </h1>
           <div className={`mt-8 ${lightmode ? "text-black  " : "text-white "}`}>
             <p className="text-sm md:text-lg mt-10 m-10">
-              I love the process of changing a raw idea into a website or a
-              product that impacts lives. I want to do work that challenges me
-              as a developer & work that I can be proud of.
+            As a dedicated Computer Science student with motivation, I am seeking an opportunity to apply my knowledge and build myself both personally and professionally.
+
+
               <br />
-              <br />I am fluent in <b className="text-Primary">Java</b> and know
-              a bit of <b className="text-Primary">Python</b> and am working on
-              a few projects in the <b className="text-Primary">SpringBoot</b>.
-              <br />I plan to learn <b className="text-Primary">C++</b> and
-              <b className="text-Primary"> Typescript</b> in the near future.{" "}
+              <br />I am good to go with <b className="text-Primary">MERN</b> Stack and know 
+              <b className="text-Primary">Java</b> and <b className="text-Primary"> Python.</b>
+              {" "}
               <br />
               <br />
-              Also, I love <b className="text-Primary">coffee</b>{" "}
-              <CiCoffeeCup style={{ scale: "1.5", rotate: "15deg" }} />
+              Also, I love <b className="text-Primary">to code</b>{" "}
             </p>
           </div>
           <div>
             <img
               className=" md:mx-4 lg:mx-10 w-auto h-96 md:w-full"
               src={Avatar}
-              alt="heroimg"
+              alt="coding"
             />
           </div>
         </div>

@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import dmimg from "../assets/Dm.png";
+import dmimg from "../assets/pic.jpg";
 import { AppStore } from "../Store/AppstoreProvider";
 const About = () => {
   const { lightmode } = useContext(AppStore);
@@ -28,19 +28,11 @@ const About = () => {
               seeking an opportunity where I can apply my skills and
               capabilities to contribute to the planning, development, and
               implementation of innovative applications. Through hands-on
-              experience, continuous learning, and collaboration with senior
-              business leaders, I aim to enhance my expertise in next-generation
-              technologies such as big data, cybersecurity, DevOps, cloud
-              computing, and continuous integration and deployment.
+              experience, continuous learning, and collaboration,
+              I aim to enhance my expertise.
             </p>
             <br />
-            <p className="text-sm md:text-lg ">
-              By leveraging my knowledge and skills, I am dedicated to making a
-              meaningful difference for customers and helping to build
-              technology platforms that will have a significant impact on a wide
-              range of users, including households, corporate clients,
-              institutional organizations, and government entities.
-            </p>
+            
           </div>
           <div className="md:w-1/3">
             <img
